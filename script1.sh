@@ -1,3 +1,3 @@
 #!/bin/bash
 # script to print username
-echo "Radhika"
+echo "Radhika Reddy"
