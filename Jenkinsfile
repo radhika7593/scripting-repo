@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Displaying name') {
+        stage('Cloning the git repo') {
             steps {
-                echo 'I am Radhika'
+                git credentialsId: 'git-credentails', url: 'https://github.com/radhika7593/scripting-repo.git'
             }
         }
         
